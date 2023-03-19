@@ -13,7 +13,7 @@ So you're interested in doing SSBB streams, huh? Luckily for you, with this tool
 - [Handy interface](./ReadmeImgs/Interface.png) to quickly change everything you need, like player names, characters, scores, round, casters...
 - Easy and fast setup using a browser source. Drag and drop!
 - A [game overlay](./ReadmeImgs/Ingame.png) is included, with renders for all characters and skins!
-- A [VS Screen](./ReadmeImgs/VSScreen) is also included, to be used in pauses between games.
+- A [VS Screen](./ReadmeImgs/VSScreen.png) is also included, to be used in pauses between games.
 - A Caster Screen is also included, with a simple overlay on which to write nicks and social networks .
 - Easy to customize! Made in html/javascript, every file can be edited at will!
 - This is **not** a Stream Control clone. It doesn't have anything to do with it, everything is custom made.

@@ -589,7 +589,7 @@ async function updateChar(pCharacter, pSkin, color, charID, direction) {
 	}
 
 	//change the image path depending on the character, skin and direction
-	charEL.setAttribute('src', 'Resources/Characters/Renders/' + pCharacter + '/' + pSkin + '.png');
+	charEL.setAttribute('src', 'Resources/Characters/Renders_upscaled/' + pCharacter + '/' + pSkin + '.png');
 
 	//             x, y, scale
 	let charPos = [0, 0, 1];

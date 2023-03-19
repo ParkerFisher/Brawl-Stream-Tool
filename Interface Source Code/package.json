@@ -1,8 +1,8 @@
 {
-  "name": "ultimae-st-gui",
-  "productName": "Ultimate ST",
+  "name": "brawl-st-gui",
+  "productName": "Brawl ST",
   "version": "1.1.0",
-  "description": "An electron interface for Ultimate tournament streams.",
+  "description": "An electron interface for Brawl tournament streams.",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -15,8 +15,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "beto",
-    "email": "robertofiore2712@gmail.com"
+    "name": "RekRP",
+    
   },
   "license": "MIT",
   "config": {

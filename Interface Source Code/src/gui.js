@@ -348,7 +348,7 @@ function createCharRoster() {
     const guiSettings = getJson("InterfaceInfo");
 
     //first row
-    for (let i = 0; i < 13; i++) {
+    for (let i = 0; i < 9; i++) {
         let newImg = document.createElement('img');
         newImg.className = "charInRoster";
         newImg.setAttribute('src', charPath + '/CSS/'+guiSettings.charactersBase[i]+'.png');
@@ -359,7 +359,7 @@ function createCharRoster() {
         document.getElementById("rosterLine1").appendChild(newImg);
     }
     //second row
-    for (let i = 13; i < 26; i++) {
+    for (let i = 9; i < 18; i++) {
         let newImg = document.createElement('img');
         newImg.className = "charInRoster";
 
@@ -370,7 +370,7 @@ function createCharRoster() {
         document.getElementById("rosterLine2").appendChild(newImg);
     }
     //third row
-    for (let i = 26; i < 39; i++) {
+    for (let i = 18; i < 27; i++) {
         let newImg = document.createElement('img');
         newImg.className = "charInRoster";
 
@@ -381,7 +381,7 @@ function createCharRoster() {
         document.getElementById("rosterLine3").appendChild(newImg);
     }
 	//fourth row
-    for (let i = 39; i < 52; i++) {
+    for (let i = 27; i < 36; i++) {
         let newImg = document.createElement('img');
         newImg.className = "charInRoster";
 
@@ -392,7 +392,7 @@ function createCharRoster() {
         document.getElementById("rosterLine4").appendChild(newImg);
     }
 	//fifth row
-    for (let i = 52; i < 65; i++) {
+    for (let i = 36; i < 41; i++) {
         let newImg = document.createElement('img');
         newImg.className = "charInRoster";
 
@@ -402,28 +402,8 @@ function createCharRoster() {
         newImg.setAttribute('src', charPath + '/CSS/'+guiSettings.charactersBase[i]+'.png');
         document.getElementById("rosterLine5").appendChild(newImg);
     }
-	//sixth row
-    for (let i = 65; i < 78; i++) {
-        let newImg = document.createElement('img');
-        newImg.className = "charInRoster";
 
-        newImg.id = guiSettings.charactersBase[i];
-        newImg.addEventListener("click", changeCharacter);
-
-        newImg.setAttribute('src', charPath + '/CSS/'+guiSettings.charactersBase[i]+'.png');
-        document.getElementById("rosterLine6").appendChild(newImg);
-    }
-	//seventh row
-    for (let i = 78; i < 87; i++) {
-        let newImg = document.createElement('img');
-        newImg.className = "charInRoster";
-
-        newImg.id = guiSettings.charactersBase[i];
-        newImg.addEventListener("click", changeCharacter);
-
-        newImg.setAttribute('src', charPath + '/CSS/'+guiSettings.charactersBase[i]+'.png');
-        document.getElementById("rosterLine7").appendChild(newImg);
-    }
+    
 }
 
 //whenever we click on the character change button

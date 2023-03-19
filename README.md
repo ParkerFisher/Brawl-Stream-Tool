@@ -1,4 +1,4 @@
-![preview](https://media.discordapp.net/attachments/799303953912168469/945058909520035880/unknown.png)
+![preview](./ReadmeImgs/Interface.png)
 
 # Brawl-Stream-Tool
 Forked from [Ultimate-Stream-Tool](https://github.com/pokerobybeto/Ultimate-Stream-Tool)
@@ -10,7 +10,7 @@ So you're interested in doing SSBB streams, huh? Luckily for you, with this tool
 ---
 
 ## Features
-- [Handy interface](.ReadmeImgs/Interface.png) to quickly change everything you need, like player names, characters, scores, round, casters...
+- [Handy interface](./ReadmeImgs/Interface.png) to quickly change everything you need, like player names, characters, scores, round, casters...
 - Easy and fast setup using a browser source. Drag and drop!
 - A [game overlay](./ReadmeImgs/Ingame.png) is included, with renders for all characters and skins!
 - A [VS Screen](./ReadmeImgs/VSScreen) is also included, to be used in pauses between games.
